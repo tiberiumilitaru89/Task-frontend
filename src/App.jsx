@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 
-const API_URL = "http://localhost:5000";
+const API_URL = "https://task-backend-gben.onrender.com";
+;
 
 function App() {
   const [tasks, setTasks] = useState([]);
